@@ -14,6 +14,19 @@ jobs:
       - run: npm ci
       - run: npm run lint:commitlint
 
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run lint:eslint
+
   prettier:
     runs-on: ubuntu-latest
     steps:
