@@ -14,7 +14,8 @@
     "preview": "vite preview",
     "lint:check": "svelte-check --tsconfig ./tsconfig.json",
     "lint:commitlint": "commitlint --verbose --to HEAD",
-    "lint:prettier": "prettier --check --ignore-unknown ."
+    "lint:prettier": "prettier --check --ignore-unknown .",
+    "version": "standard-version"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
@@ -23,6 +24,7 @@
     "@tsconfig/svelte": "^2.0.1",
     "prettier": "^2.7.1",
     "prettier-plugin-svelte": "^2.7.0",
+    "standard-version": "^9.5.0",
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.7",
     "svelte-preprocess": "^4.9.8",
@@ -41,5 +43,46 @@
     "svelteAllowShorthand": false,
     "svelteSortOrder": "options-scripts-markup-styles",
     "svelteStrictMode": true
+  },
+  "standard-version": {
+    "releaseCommitMessageFormat": "chore(release): {{currentTag}} [skip ci]",
+    "types": [
+      {
+        "type": "ci",
+        "section": "CI"
+      },
+      {
+        "type": "chore",
+        "section": "Chore"
+      },
+      {
+        "type": "docs",
+        "section": "Documentation"
+      },
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "perf",
+        "section": "Performance Improvement"
+      },
+      {
+        "type": "refactor",
+        "section": "Refactoring"
+      },
+      {
+        "type": "style",
+        "section": "Style"
+      },
+      {
+        "type": "test",
+        "section": "Test"
+      }
+    ]
   }
 }
