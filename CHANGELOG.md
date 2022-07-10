@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/dezitter/blog/compare/v0.0.1...v0.0.2) (2022-07-10)
+
+
+### CI
+
+* **lint:** run eslint on pull requests ([0af5e14](https://github.com/dezitter/blog/commit/0af5e14947ba0a27923e33d541718ec1380856d9))
+
+
+### Chore
+
+* **prettier:** ignore CHANGELOG.md and dist/ folder ([709c2aa](https://github.com/dezitter/blog/commit/709c2aa2413713b2959f1c7ace8dccb3ac3d2067))
+
 ### 0.0.1 (2022-07-10)
 
 
