@@ -1,6 +1,23 @@
 name: Lint
 on: [pull_request]
 jobs:
+  commitlint:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run lint:commitlint
+
   prettier:
     runs-on: ubuntu-latest
     strategy:
