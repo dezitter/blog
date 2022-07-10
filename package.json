@@ -12,7 +12,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "lint:check": "svelte-check --tsconfig ./tsconfig.json",
     "lint:commitlint": "commitlint --verbose --to HEAD",
     "lint:prettier": "prettier --check --ignore-unknown ."
   },
