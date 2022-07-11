@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/dezitter/blog/compare/v0.0.4...v0.0.5) (2022-07-11)
+
+
+### Chore
+
+* **deps:** pin dependencies ([e144d6d](https://github.com/dezitter/blog/commit/e144d6ddc102c915983f92705044e874dc912024))
+
 ### [0.0.4](https://github.com/dezitter/blog/compare/v0.0.3...v0.0.4) (2022-07-11)
 
 
