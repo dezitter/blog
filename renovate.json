@@ -10,5 +10,11 @@
   "prHourlyLimit": 3,
   "prConcurrentLimit": 3,
   "timezone": "America/Montreal",
-  "schedule": ["before 7am"]
+  "schedule": ["before 7am"],
+
+  "packageRules": [
+    { "packageNames": ["node"], "enabled": false },
+    { "packageNames": ["npm"], "enabled": false },
+    { "packageNames": ["nvm"], "enabled": false }
+  ]
 }
