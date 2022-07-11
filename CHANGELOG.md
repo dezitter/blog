@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/dezitter/blog/compare/v0.0.2...v0.0.3) (2022-07-11)
+
+
+### Chore
+
+* **deps:** add renovate.json ([893ee2d](https://github.com/dezitter/blog/commit/893ee2d65468f3f6c6825b33933aa4076a214848))
+
 ### [0.0.2](https://github.com/dezitter/blog/compare/v0.0.1...v0.0.2) (2022-07-10)
 
 
