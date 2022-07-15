@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/dezitter/blog/compare/v0.0.8...v0.0.9) (2022-07-15)
+
+
+### Chore
+
+* **lint:** move commitlint to root package ([f51de0a](https://github.com/dezitter/blog/commit/f51de0a7755dcb0ab70e0c70a3ccdaf6dc6b5781))
+* **npm:** add version field in package.json ([e829935](https://github.com/dezitter/blog/commit/e8299359ede5eeb6fa1fb38bf67eba12b25eb644))
+* **release:** move standard-version to root package ([487c699](https://github.com/dezitter/blog/commit/487c699840a001b6931346b3c6bfd0abb8fb9161))
+
 ### [0.0.8](https://github.com/dezitter/blog/compare/v0.0.7...v0.0.8) (2022-07-15)
 
 
