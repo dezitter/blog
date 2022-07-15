@@ -12,7 +12,7 @@ jobs:
           node-version: 18.x
           cache: "npm"
       - run: npm ci
-      - run: npm run --workspace=@dezitter/blog-client lint:commitlint
+      - run: npm run lint:commitlint
 
   eslint:
     runs-on: ubuntu-latest
