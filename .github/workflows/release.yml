@@ -14,10 +14,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: 'npm'
+          cache: "npm"
       - run: npm ci
       - run: |
           git config user.name "Laurent Dezitter"
           git config user.name "laurent.dezitter@gmail.com"
-      - run: npm run version
+      - run: npm run --workspace=@dezitter/blog-client version
       - run: git push --atomic --follow-tags origin master

@@ -10,9 +10,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: 'npm'
+          cache: "npm"
       - run: npm ci
-      - run: npm run lint:commitlint
+      - run: npm run --workspace=@dezitter/blog-client lint:commitlint
 
   eslint:
     runs-on: ubuntu-latest
@@ -23,9 +23,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: 'npm'
+          cache: "npm"
       - run: npm ci
-      - run: npm run lint:eslint
+      - run: npm run --workspace=@dezitter/blog-client lint:eslint
 
   prettier:
     runs-on: ubuntu-latest
@@ -34,9 +34,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: 'npm'
+          cache: "npm"
       - run: npm ci
-      - run: npm run lint:prettier
+      - run: npm run --workspace=@dezitter/blog-client lint:prettier
 
   check:
     runs-on: ubuntu-latest
@@ -45,6 +45,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: 'npm'
+          cache: "npm"
       - run: npm ci
-      - run: npm run lint:check
+      - run: npm run --workspace=@dezitter/blog-client lint:check
