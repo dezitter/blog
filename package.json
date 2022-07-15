@@ -5,15 +5,58 @@
     "packages/blog-client"
   ],
   "scripts": {
-    "lint:commitlint": "commitlint --verbose --to HEAD"
+    "lint:commitlint": "commitlint --verbose --to HEAD",
+    "version": "standard-version"
   },
   "devDependencies": {
     "@commitlint/cli": "17.0.3",
-    "@commitlint/config-conventional": "17.0.3"
+    "@commitlint/config-conventional": "17.0.3",
+    "standard-version": "9.5.0"
   },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
+    ]
+  },
+  "standard-version": {
+    "releaseCommitMessageFormat": "chore(release): {{currentTag}} [skip ci]",
+    "types": [
+      {
+        "type": "ci",
+        "section": "CI"
+      },
+      {
+        "type": "chore",
+        "section": "Chore"
+      },
+      {
+        "type": "docs",
+        "section": "Documentation"
+      },
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "perf",
+        "section": "Performance Improvement"
+      },
+      {
+        "type": "refactor",
+        "section": "Refactoring"
+      },
+      {
+        "type": "style",
+        "section": "Style"
+      },
+      {
+        "type": "test",
+        "section": "Test"
+      }
     ]
   }
 }
