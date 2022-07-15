@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/dezitter/blog/compare/v0.0.6...v0.0.7) (2022-07-15)
+
+
+### Features
+
+* cleanup vite boilerplate ([4801462](https://github.com/dezitter/blog/commit/480146299096eec1ed689b8eac8ba37a834dc637))
+
+
+### Chore
+
+* setup tailwind ([efccd35](https://github.com/dezitter/blog/commit/efccd35ec1259205d1e6e140646238691294c7ac))
+
 ### [0.0.6](https://github.com/dezitter/blog/compare/v0.0.5...v0.0.6) (2022-07-11)
 
 
