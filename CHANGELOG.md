@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/dezitter/blog/compare/v0.0.10...v0.0.11) (2022-07-16)
+
+
+### Chore
+
+* **blog-posts:** add preprocessing scripts ([210d6a6](https://github.com/dezitter/blog/commit/210d6a69f58642a09eee4141a8db578bf2550008))
+
 ### [0.0.10](https://github.com/dezitter/blog/compare/v0.0.9...v0.0.10) (2022-07-16)
 
 
