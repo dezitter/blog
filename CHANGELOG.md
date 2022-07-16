@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/dezitter/blog/compare/v0.0.9...v0.0.10) (2022-07-16)
+
+
+### Chore
+
+* add blog-shared and blog-posts workspaces ([6e05f1d](https://github.com/dezitter/blog/commit/6e05f1d123f71b99865820ee09bdbdd62860febc))
+* **lint:** move prettier to root package ([496d7ac](https://github.com/dezitter/blog/commit/496d7ac4be14df6b4f1dab5b884d12a0d79c8cfc))
+
 ### [0.0.9](https://github.com/dezitter/blog/compare/v0.0.8...v0.0.9) (2022-07-15)
 
 
