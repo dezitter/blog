@@ -1,0 +1,6 @@
+{
+  "name": "@dezitter/blog-posts",
+  "scripts": {
+    "tsc": "tsc"
+  }
+}
