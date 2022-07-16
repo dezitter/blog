@@ -9,12 +9,15 @@
   ],
   "scripts": {
     "lint:commitlint": "commitlint --verbose --to HEAD",
+    "lint:prettier": "prettier --check --ignore-unknown .",
     "version": "standard-version"
   },
   "devDependencies": {
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
     "@tsconfig/node18-strictest": "1.0.0",
+    "prettier": "2.7.1",
+    "prettier-plugin-svelte": "2.7.0",
     "standard-version": "9.5.0",
     "typescript": "4.7.4"
   },
@@ -22,6 +25,13 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true,
+    "svelteAllowShorthand": false,
+    "svelteSortOrder": "options-scripts-markup-styles",
+    "svelteStrictMode": true
   },
   "standard-version": {
     "releaseCommitMessageFormat": "chore(release): {{currentTag}} [skip ci]",

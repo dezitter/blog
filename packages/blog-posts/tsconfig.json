@@ -5,7 +5,9 @@
     "outDir": "./dist"
   },
   "include": ["src/**/*.ts"],
-  "references": [{
-    "path": "../blog-shared"
-  }]
+  "references": [
+    {
+      "path": "../blog-shared"
+    }
+  ]
 }
