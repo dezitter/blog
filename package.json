@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.0.10",
   "workspaces": [
-    "packages/blog-client",
+    "packages/blog-shared",
     "packages/blog-posts",
-    "packages/blog-shared"
+    "packages/blog-client"
   ],
   "scripts": {
     "lint:commitlint": "commitlint --verbose --to HEAD",
