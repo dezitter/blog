@@ -15,7 +15,7 @@
     "lint:eslint": "eslint ./src"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "1.0.0-next.49",
+    "@sveltejs/vite-plugin-svelte": "1.0.1",
     "@tsconfig/svelte": "2.0.1",
     "@typescript-eslint/eslint-plugin": "5.30.6",
     "@typescript-eslint/parser": "5.30.6",
