@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/dezitter/blog/compare/v0.0.12...v0.0.13) (2022-07-17)
+
+
+### CI
+
+* **lint:** run check on all workspaces ([4ebff97](https://github.com/dezitter/blog/commit/4ebff97ed1af2d7a3e5c790f5a70f26f6685ea72))
+
 ### [0.0.12](https://github.com/dezitter/blog/compare/v0.0.11...v0.0.12) (2022-07-16)
 
 
