@@ -2,7 +2,8 @@
   "name": "@dezitter/blog-posts",
   "scripts": {
     "build": "npm run clean && tsc",
-    "clean": "rm -rf ./tsconfig.tsbuildinfo dist/"
+    "clean": "rm -rf ./tsconfig.tsbuildinfo dist/",
+    "check": "tsc"
   },
   "devDependencies": {
     "@types/markdown-it": "12.2.3",

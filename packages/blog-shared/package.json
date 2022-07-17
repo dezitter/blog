@@ -4,6 +4,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "npm run clean && tsc",
-    "clean": "rm -rf ./tsconfig.tsbuildinfo dist/"
+    "clean": "rm -rf ./tsconfig.tsbuildinfo dist/",
+    "check": "tsc"
   }
 }
