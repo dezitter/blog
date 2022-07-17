@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/dezitter/blog/compare/v0.0.13...v0.0.14) (2022-07-17)
+
+
+### Chore
+
+* **deps:** update dependency eslint to v8.20.0 ([a20d2de](https://github.com/dezitter/blog/commit/a20d2de6cc3589ae3fca9092235b401ffdd64eae))
+
 ### [0.0.13](https://github.com/dezitter/blog/compare/v0.0.12...v0.0.13) (2022-07-17)
 
 
