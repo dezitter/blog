@@ -1,0 +1,12 @@
+{
+  "name": "@dezitter/blog-server",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf ./tsconfig.tsbuildinfo dist/",
+    "check": "tsc"
+  },
+  "dependencies": {
+    "fastify": "4.2.1"
+  }
+}

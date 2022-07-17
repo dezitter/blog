@@ -5,7 +5,8 @@
   "workspaces": [
     "packages/blog-shared",
     "packages/blog-posts",
-    "packages/blog-client"
+    "packages/blog-client",
+    "packages/blog-server"
   ],
   "scripts": {
     "lint:commitlint": "commitlint --verbose --to HEAD",
