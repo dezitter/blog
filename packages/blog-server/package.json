@@ -2,11 +2,20 @@
   "name": "@dezitter/blog-server",
   "exports": "./dist/index.js",
   "scripts": {
+    "dev": "nodemon",
     "build": "npm run clean && tsc",
     "clean": "rm -rf ./tsconfig.tsbuildinfo dist/",
     "check": "tsc"
   },
   "dependencies": {
     "fastify": "4.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.19",
+    "ts-node": "10.9.1"
+  },
+  "nodemonConfig": {
+    "verbose": true,
+    "exec": "ts-node ./src/index.ts"
   }
 }
