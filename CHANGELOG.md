@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.15](https://github.com/dezitter/blog/compare/v0.0.14...v0.0.15) (2022-07-17)
+
+
+### Features
+
+* **blog-server:** setup fastify server ([376efbf](https://github.com/dezitter/blog/commit/376efbf071bcbfd1048770f2d120e36b24f6dbb3))
+
+
+### Chore
+
+* **blog-server:** add dev script using nodemon ([dca79ca](https://github.com/dezitter/blog/commit/dca79cae1875f6e6bd800558cb691cfbfd06fd43))
+
+
+### CI
+
+* **release:** rename git user ([803ae4c](https://github.com/dezitter/blog/commit/803ae4c4ede805c24152078d68a328200080abb3))
+
 ### [0.0.14](https://github.com/dezitter/blog/compare/v0.0.13...v0.0.14) (2022-07-17)
 
 
