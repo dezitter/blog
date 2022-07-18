@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.19](https://github.com/dezitter/blog/compare/v0.0.18...v0.0.19) (2022-07-18)
+
+
+### Chore
+
+* **deps:** update dependency vite to v3.0.2 ([53a8fb6](https://github.com/dezitter/blog/commit/53a8fb6775aa0ab922198aa96e9c3331ba6430fc))
+
 ### [0.0.18](https://github.com/dezitter/blog/compare/v0.0.17...v0.0.18) (2022-07-18)
 
 
