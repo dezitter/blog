@@ -11,10 +11,18 @@
   "prConcurrentLimit": 3,
   "timezone": "America/Montreal",
   "schedule": ["before 7am"],
+  "labels": ["dependencies"],
 
   "packageRules": [
     { "packageNames": ["node"], "enabled": false },
     { "packageNames": ["npm"], "enabled": false },
-    { "packageNames": ["nvm"], "enabled": false }
+    { "packageNames": ["nvm"], "enabled": false },
+    {
+      "matchUpdateTypes": "patch",
+      "automerge": true,
+      "automergeSchedule": ["at any time"],
+      "platformAutomerge": true,
+      "addLabels": ["automerge"]
+    }
   ]
 }
