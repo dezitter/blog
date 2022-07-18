@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.20](https://github.com/dezitter/blog/compare/v0.0.19...v0.0.20) (2022-07-18)
+
+
+### Chore
+
+* **deps:** update typescript-eslint monorepo to v5.30.7 ([09c86ad](https://github.com/dezitter/blog/commit/09c86adfe6e0a8e1035eb9b6cd5679563d3ee6ea))
+
 ### [0.0.19](https://github.com/dezitter/blog/compare/v0.0.18...v0.0.19) (2022-07-18)
 
 
