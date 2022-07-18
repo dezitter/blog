@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.17](https://github.com/dezitter/blog/compare/v0.0.16...v0.0.17) (2022-07-18)
+
+
+### Chore
+
+* **renovate:** enable automerge on patch releases ([5915c91](https://github.com/dezitter/blog/commit/5915c91e87e08385bc55756989829837e95b5b55))
+
 ### [0.0.16](https://github.com/dezitter/blog/compare/v0.0.15...v0.0.16) (2022-07-18)
 
 
