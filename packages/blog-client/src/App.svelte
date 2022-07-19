@@ -1,6 +1,5 @@
 <script lang="ts">
+  import HomePage from './pages/home/HomePage.svelte';
 </script>
 
-<main>
-  <p>Work in progress</p>
-</main>
+<HomePage />
