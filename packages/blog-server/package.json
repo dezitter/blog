@@ -8,7 +8,7 @@
     "check": "tsc"
   },
   "dependencies": {
-    "fastify": "4.2.1"
+    "fastify": "4.3.0"
   },
   "devDependencies": {
     "nodemon": "2.0.19",
