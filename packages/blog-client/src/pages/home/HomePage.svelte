@@ -17,6 +17,4 @@
   ];
 </script>
 
-<main>
-  <PostsList posts="{posts}" />
-</main>
+<PostsList posts="{posts}" />
