@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.21](https://github.com/dezitter/blog/compare/v0.0.20...v0.0.21) (2022-07-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fastify to v4.3.0 ([1b64979](https://github.com/dezitter/blog/commit/1b649798e59626b871a2ec3f1018d6c926e0b0ef))
+
 ### [0.0.20](https://github.com/dezitter/blog/compare/v0.0.19...v0.0.20) (2022-07-18)
 
 
