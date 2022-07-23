@@ -1,5 +1,8 @@
 <script lang="ts">
+  import Layout from './pages/Layout.svelte';
   import HomePage from './pages/home/HomePage.svelte';
 </script>
 
-<HomePage />
+<Layout>
+  <HomePage />
+</Layout>
