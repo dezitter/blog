@@ -11,9 +11,9 @@
     html: '' as Html,
   };
   const posts: readonly Post[] = [
-    { ...basePost, title: 'Foo' },
-    { ...basePost, title: 'Bar' },
-    { ...basePost, title: 'Quz' },
+    { ...basePost, title: 'Foo', slug: 'foo' as Slug },
+    { ...basePost, title: 'Bar', slug: 'bar' as Slug },
+    { ...basePost, title: 'Quz', slug: 'quz' as Slug },
   ];
 </script>
 

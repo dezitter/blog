@@ -17,6 +17,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "1.0.1",
     "@tsconfig/svelte": "3.0.0",
+    "@types/page": "1.11.5",
     "@typescript-eslint/eslint-plugin": "5.31.0",
     "@typescript-eslint/parser": "5.31.0",
     "autoprefixer": "10.4.7",
@@ -78,5 +79,8 @@
       "no-var": "error",
       "prefer-const": "error"
     }
+  },
+  "dependencies": {
+    "page": "1.11.6"
   }
 }

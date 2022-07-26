@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Link } from '../../lib/routing';
   import type { Post } from '@dezitter/blog-shared';
 
   export let posts: readonly Post[] = [];
@@ -9,13 +10,13 @@
 <ul>
   {#each posts as post}
     <li>
-      <a href="post/{post.slug}">
+      <Link href="/post/{post.slug}">
         <div class="font-bold">{post.title}</div>
         <div>
           <span class="text-neutral-500">{post.excerpt}</span>
           <span class="italic">{post.publicationDate}</span>
         </div>
-      </a>
+      </Link>
     </li>
   {/each}
 </ul>
