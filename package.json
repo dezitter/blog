@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "private": true,
-  "version": "0.0.22",
+  "version": "0.0.23",
   "workspaces": [
     "packages/blog-shared",
     "packages/blog-posts",
