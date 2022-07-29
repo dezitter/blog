@@ -2,9 +2,7 @@
   import { Link } from '../../lib/routing';
   import type { Post } from '@dezitter/blog-shared';
 
-  export let posts: readonly Post[] = [];
-
-  $: console.log(posts);
+  export let posts: readonly Post[];
 </script>
 
 <ul>
