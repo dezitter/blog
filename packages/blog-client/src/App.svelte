@@ -1,5 +1,6 @@
 <script lang="ts">
   import HomePage from './pages/home';
+  import PostPage from './pages/post';
   import { Router, Route } from './lib/routing';
   import Layout from './pages/Layout.svelte';
 </script>
@@ -10,8 +11,8 @@
       <HomePage />
     </Route>
 
-    <Route path="/post/:slug">
-      <p>MATCH POST!</p>
+    <Route path="/post/:slug" let:params>
+      <PostPage params="{params}" />
     </Route>
   </Layout>
 </Router>

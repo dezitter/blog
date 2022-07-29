@@ -77,7 +77,8 @@
       "no-throw-literal": "error",
       "no-shadow": "error",
       "no-var": "error",
-      "prefer-const": "error"
+      "prefer-const": "error",
+      "@typescript-eslint/restrict-template-expressions": "off"
     }
   },
   "dependencies": {
