@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.25](https://github.com/dezitter/blog/compare/v0.0.24...v0.0.25) (2022-07-30)
+
+
+### Features
+
+* **blog-client:** add basic posts list ([7a6e311](https://github.com/dezitter/blog/commit/7a6e3119292376fff61a46ceb96be1bd971d714c))
+* **blog-client:** add basic routing ([a1b0407](https://github.com/dezitter/blog/commit/a1b04079eb00708e197eaa4d0cc11c9abe7a93b4))
+* **blog-client:** fetch posts from api ([4d61849](https://github.com/dezitter/blog/commit/4d61849311b24cb6da4e2d33e97ffafc1713e24d))
+* **blog-server:** add admin router ([fac4243](https://github.com/dezitter/blog/commit/fac42431fffe793732d864150fe1bd9478bb1599))
+* **blog-server:** add api router ([b7a4941](https://github.com/dezitter/blog/commit/b7a49413dd5086308a56b002d3e814b3f69b76ef))
+
+
+### Refactoring
+
+* **blog-client:** add layout component ([7ac5151](https://github.com/dezitter/blog/commit/7ac51519e704f00e5839dd2e676d1d518e8a8557))
+* **blog-server:** add home router ([794c5f1](https://github.com/dezitter/blog/commit/794c5f15d02294bfff8320695bce48075ddde829))
+
 ### [0.0.24](https://github.com/dezitter/blog/compare/v0.0.23...v0.0.24) (2022-07-29)
 
 
