@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.27](https://github.com/dezitter/blog/compare/v0.0.26...v0.0.27) (2022-07-30)
+
+
+### Chore
+
+* **deps:** update dependency tailwindcss to v3.1.7 ([050d541](https://github.com/dezitter/blog/commit/050d5415ebc8f7b1bd68c42005100df7ee1f5d64))
+
 ### [0.0.26](https://github.com/dezitter/blog/compare/v0.0.25...v0.0.26) (2022-07-30)
 
 
