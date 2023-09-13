@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "private": "true",
+  "description": "Personal blog",
+  "author": "Laurent Dezitter <laurent.dezitter@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/dezitter/blog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dezitter/blog.git"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
